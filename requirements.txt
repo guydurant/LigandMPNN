@@ -1,4 +1,4 @@
-biopython==1.79
+biopython==1.84
 filelock==3.13.1
 fsspec==2024.3.1
 Jinja2==3.1.3
