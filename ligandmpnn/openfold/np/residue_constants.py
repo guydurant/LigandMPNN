@@ -1280,7 +1280,7 @@ def make_atom14_dists_bounds(
 
 restype_atom14_ambiguous_atoms = np.zeros((21, 14), dtype=np.float32)
 restype_atom14_ambiguous_atoms_swap_idx = np.tile(
-    np.arange(14, dtype=np.int), (21, 1)
+    np.arange(14, dtype=int), (21, 1)
 )
 
 
