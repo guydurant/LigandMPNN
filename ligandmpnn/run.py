@@ -7,7 +7,7 @@ import sys
 
 import numpy as np
 import torch
-from data_utils import (
+from ligandmpnn.data_utils import (
     alphabet,
     element_dict_rev,
     featurize,
@@ -19,9 +19,9 @@ from data_utils import (
     restype_str_to_int,
     write_full_PDB,
 )
-from model_utils import ProteinMPNN
+from ligandmpnn.model_utils import ProteinMPNN
 from prody import writePDB
-from sc_utils import Packer, pack_side_chains
+from ligandmpnn.sc_utils import Packer, pack_side_chains
 
 
 def main(args) -> None:
